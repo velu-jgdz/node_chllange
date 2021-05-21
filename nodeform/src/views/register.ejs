@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="/js/register.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container">
+				<div class="row mt-5 justify-content-center">
+					<div class="col-6 p-4">
+
+						<form>
+							<fieldset>
+								<legend>Register Form</legend>
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Enter First Name">
+									<span hidden id="namespan">This field is required</span>
+								</div>
+								<div class="form-group">
+									<label for="email">Email address</label>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+									<span hidden id="emailspan">This field is required</span>
+								</div>
+								<div class="form-group">
+									<label for="pass">Password</label>
+									<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+									<span hidden id="passspan">This field is required</span>
+								</div>
+								<div class="form-group">
+									<label for="phone">Mobile</label>
+									<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+									<span hidden id="phonespan">This field is required</span>
+								</div>
+								<button type="button" id="registerBtn" class="btn btn-primary">Submit</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
